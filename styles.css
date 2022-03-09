@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    /* border: 2px red solid; */
+    background-color: #c4c4c4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ul{
+ display: flex;
+}
+li{
+    list-style: none;
+} */
+ul{
+    /* border: 2px blue solid;  */
+    margin-right: 5rem;
+}
+
+li{
+    display: inline-block;
+    padding: .7rem;
+    font-size: 1.5rem;
+   
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.7rem;
+    color: greenyellow;
+    transition: 1s ease-in-out;
+}
+h2{
+    font-size: 3rem;
+    /* 16px * 3 */
+    /* 16px = 1rem */
+}
+.top_container{
+    height: 90vh;
+    background-image: url("./images/back-bike.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -9rem;
+    position: relative;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+position: relative;
+
+}
+.intro h1{
+    position: absolute;
+    top: 18rem;
+    color: #fff;
+    font-size: 5rem;
+}
+.img{
+    position: absolute;
+    top: 30rem;
+    left: 68rem;
+    border-radius: 50%;
+}
